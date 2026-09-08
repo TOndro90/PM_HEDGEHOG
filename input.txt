@@ -1,0 +1,11 @@
+icsFile = "/home/tomas/Desktop/HEDGEHOG_6_9_26/ICs/0_particles.h5"
+outputs = 0.2,0.5,0.75,1
+outputDir = "/home/tomas/Desktop/HEDGEHOG_6_9_26/outputDir/"
+
+L_box = 64000
+n_Cells = 64
+
+H = 50
+Omega_M = 1
+Omega_L = 0
+Omega_K = 0.0
