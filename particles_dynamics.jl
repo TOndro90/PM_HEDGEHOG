@@ -71,9 +71,6 @@ function get_delta_a_PM(
     delta_a_DM = adot_now * delta_t
     delta_a_expansion = alpha_a * current_a
     delta_a = min( delta_a_DM, delta_a_expansion )
-    if delta_a < 0.0002
-        delta_a = 0.0002
-    end
     return delta_a
 end
 
